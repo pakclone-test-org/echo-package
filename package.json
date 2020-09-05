@@ -1,8 +1,11 @@
 {
   "name": "echo-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Echos what it's passed as a parameter",
   "main": "app.js",
+  "bin": {
+    "echo-package": "./bin.js"
+  },
   "repository": "https://github.com/pakclone-test-org/echo-package.git",
   "author": "Timon Lukas <timon.lukas3@gmail.com>",
   "license": "MIT",
